@@ -4,7 +4,7 @@
 This implementes the YOLO object detection algorithm on the ViWi Dataset for single user colocated camera scenarios. 
 The YOLO model is trained to detect a single user in the image and output a bounding box around the user.
 Training and testing dataset generated using image-labeling tool in MATLAB. 
-The dataset can be downloaded from [ViWi Dataset] (https://viwi-dataset.net/scenarios.html) (scenrio 2 and 3)
+The dataset can be downloaded from  [ViWi Dataset](https://viwi-dataset.net/scenarios.html). (scenrio 2 and 3)
 
 Training Dataset: 
 -Dataset contains images from all three cameras
