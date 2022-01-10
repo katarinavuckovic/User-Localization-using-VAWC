@@ -1,8 +1,10 @@
-PART 1: YOLO Object Detection 
+
+
+# PART 1: YOLO Object Detection 
 This implementes the YOLO object detection algorithm on the ViWi Dataset for single user colocated camera scenarios. 
 The YOLO model is trained to detect a single user in the image and output a bounding box around the user.
 Training and testing dataset generated using image-labeling tool in MATLAB. 
-The dataset can be downloaded from: https://viwi-dataset.net/scenarios.html (scenrio 2 and 3)
+The dataset can be downloaded from [ViWi Dataset] (https://viwi-dataset.net/scenarios.html) (scenrio 2 and 3)
 
 %-------------------------------------------------------------------------------------------------------------
 Training Dataset: 
@@ -17,7 +19,7 @@ Trained Model: viWiYOLODetector_V2 (this file is to large to upload. Need to gen
 
 YOLO Testing: yoloTestViWi.m
 %______________________________________________________________________________________________________________
-PART 2: MLP Neural Network
+# PART 2: MLP Neural Network
 This network is trained to map the location of the bounding box in the image to the (x,y) locations on the map. 
 The input to the network are 4 values that define the bound box.
 The output are two values that (x,y) geolocation coordinates on the map.
@@ -33,7 +35,7 @@ Trained Models: TrainedNetCam1, TrainedNetCam2, TrainedNetCam3
 
 MLP Testing: mlpTestViwi.m 
 %______________________________________________________________________________________________________________
-PART 3: User Localization using Object Detection (End-to-End System)
+# PART 3: User Localization using Object Detection (End-to-End System)
 This part integrates 1 and 2 into an end-to-end system and calculates the localization accuracy. 
 The input to the system is a image from one of the camera and the output is the estimated user location.
 %-------------------------------------------------------------------------------------------------------------
