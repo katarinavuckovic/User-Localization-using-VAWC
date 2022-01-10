@@ -13,7 +13,7 @@ Testing Dataset:  TestDataset.mat
 -101 images (mix of all three cameras)
 
 YOLO Training: yoloTrainViWi.m
-Trained Model: viWiYOLODetector_V2
+Trained Model: viWiYOLODetector_V2 (this file is to large to upload. Need to generate it using yoloTrainViWi.m)
 
 YOLO Testing: yoloTestViWi.m
 %______________________________________________________________________________________________________________
