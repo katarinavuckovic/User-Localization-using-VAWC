@@ -1,4 +1,4 @@
-# User-Localization-using-WAVC
+# User-Localization-using-VAWC
 
 ## PART 1: YOLO Object Detection 
 This implementes the YOLO object detection algorithm on the ViWi Dataset for single user colocated camera scenarios. 
