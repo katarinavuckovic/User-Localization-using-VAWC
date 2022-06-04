@@ -1,7 +1,7 @@
 # User-Localization-using-VAWC
 
 ## PART 1: YOLO Object Detection 
-This implements the YOLO object detection algorithm on the ViWi Dataset for single user colocated camera scenarios. 
+This implements the YOLO object detection algorithm on the ViWi Dataset for single user co-located camera scenarios. 
 The YOLO model is trained to detect a single user in the image and output a bounding box around the user.
 Training and testing dataset generated using image-labeling tool in MATLAB. 
 The dataset can be downloaded from  [ViWi Dataset](https://viwi-dataset.net/scenarios.html). (scenrio 2 and 3)
